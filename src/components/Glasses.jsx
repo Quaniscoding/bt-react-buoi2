@@ -11,11 +11,6 @@ export default class Glasses extends Component {
       desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
     },
   };
-  renderImg = () => {
-    dataGlasses.map((glass) => {
-      <h5>{glass.name}</h5>;
-    });
-  };
   render() {
     let { glassType } = this.state;
     return (
